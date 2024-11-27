@@ -1,0 +1,1 @@
+from sentry_nodestore_opensearch.backend import OpenSearchNodeStorage

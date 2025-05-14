@@ -1,7 +1,6 @@
 from setuptools import setup, find_namespace_packages
 
 install_requires = [
-    'sentry==24.*',
     'opensearch-py==2.*',
 ]
 
@@ -10,7 +9,7 @@ with open("README.md", "r") as readme:
 
 setup(
     name='sentry-nodestore-opensearch',
-    version='1.0.0',
+    version='1.0.1',
     author='info@wedeploy.pl',
     author_email='info@wedeploy.pl',
     url='https://github.com/wedeploy/sentry-nodestore-opensearch',
